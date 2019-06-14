@@ -12,6 +12,7 @@ import ruby from "./images/ruby.png";
 import python from "./images/python.png";
 import java from "./images/java.png";
 import thomas from "./images/ThomasPerez.jpg";
+import { CircleArrow as ScrollUpButton } from "react-scroll-up-button";
 
 class Home extends Component {
   render() {
@@ -126,20 +127,89 @@ class Home extends Component {
         <div className="skills">
           <section id="skills">
             <h2>Skills</h2>
-            <img src={js} alt="" height="209px" width="156px" />
-            <img src={html} alt="" height="191px" width="191px" />
-            <img src={css} alt="" height="191px" width="137px" />
-            <img src={node} alt="" height="200px" width="191px" />
-            <img src={sql} alt="" height="204px" width="198px" />
-            <img src={react} alt="" height="204px" width="204px" />
+            <div className="skill">
+              <img
+                className="js"
+                src={js}
+                alt=""
+                height="209px"
+                width="156px"
+              />
+              <img
+                className="html"
+                src={html}
+                alt=""
+                height="191px"
+                width="191px"
+              />
+              <img
+                className="css"
+                src={css}
+                alt=""
+                height="191px"
+                width="137px"
+              />
+              <img
+                className="node"
+                src={node}
+                alt=""
+                height="200px"
+                width="191px"
+              />
+              <img
+                className="sql"
+                src={sql}
+                alt=""
+                height="204px"
+                width="198px"
+              />
+              <img
+                className="react"
+                src={react}
+                alt=""
+                height="204px"
+                width="204px"
+              />
+            </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
           </section>
         </div>
         <div className="current">
           <section id="currenltylearning">
             <h2>Currenlty Learning</h2>
-            <img src={ruby} alt="" height="200px" width="150px" />
-            <img src={java} alt="" height="200px" width="150px" />
-            <img src={python} alt="" height="200px" width="150px" />
+            <div className="learning">
+              <img
+                className="ruby"
+                src={ruby}
+                alt=""
+                height="200px"
+                width="150px"
+              />
+              <img
+                className="java"
+                src={java}
+                alt=""
+                height="200px"
+                width="150px"
+              />
+              <img
+                className="python"
+                src={python}
+                alt=""
+                height="200px"
+                width="150px"
+              />
+            </div>
+            <br />
+            <br />
+            <br />
+            <br />
           </section>
         </div>
         <div className="contact">
@@ -147,6 +217,7 @@ class Home extends Component {
             <h2>Contact Me!</h2>
           </section>
         </div>
+        <ScrollUpButton EasingType="linear" />
       </div>
     );
   }
