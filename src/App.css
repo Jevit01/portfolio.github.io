@@ -20,14 +20,38 @@
   grid-column: 2;
   grid-row: 1;
   text-align: justify;
+  margin-left: 10px;
+  color: white;
+}
+
+.fhbox {
+  grid-column: 2;
+  grid-row: 1;
+  text-align: justify;
   margin-left: 30px;
+  height: 220px;
+  padding-right: 10px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.ecbox {
+  grid-column: 2;
+  grid-row: 2;
+  text-align: justify;
+  margin-left: 30px;
+  height: 220px;
+  padding-right: 10px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .ec {
   grid-column: 2;
   grid-row: 2;
   text-align: justify;
-  margin-left: 30px;
+  margin-left: 10px;
+  color: white;
 }
 
 .mywork {
@@ -118,6 +142,9 @@ h2 {
   font-family: "Bangers", cursive;
   font-weight: bold;
   font-size: 80px;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 h1 {
@@ -206,7 +233,7 @@ h3 {
 .learning {
   display: grid;
   justify-content: center;
-  margin-left: 50px;
+  margin-left: 45px;
   grid-template-columns: 20% 20% 20%;
 }
 
@@ -217,12 +244,130 @@ h3 {
 
 .java {
   margin-left: 40px;
-
   grid-column: 2;
 }
 
 .python {
   margin-left: 40px;
-
   grid-column: 3;
+}
+
+.formBox {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 400px;
+  width: 650px;
+  margin-left: 400px;
+  border-radius: 5px;
+}
+
+.form {
+  display: inline-grid;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.email {
+  height: 30px;
+  width: 500px;
+  font-size: 20px;
+  border-radius: 5px;
+  border-color: white;
+  border-style: ridge;
+}
+
+.text {
+  height: 200px;
+  font-size: 20px;
+  border-radius: 5px;
+  border-color: white;
+  border-style: ridge;
+}
+
+.submit {
+  -moz-box-shadow: inset 0px 1px 0px 0px #ffffff;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #ffffff;
+  box-shadow: inset 0px 1px 0px 0px #ffffff;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0.05, #ededed),
+    color-stop(1, #dfdfdf)
+  );
+  background: -moz-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+  background: -webkit-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+  background: -o-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+  background: -ms-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+  background: linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf',GradientType=0);
+  background-color: #ededed;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: #777777;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+}
+.submit:hover {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0.05, #dfdfdf),
+    color-stop(1, #ededed)
+  );
+  background: -moz-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+  background: -webkit-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+  background: -o-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+  background: -ms-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+  background: linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed',GradientType=0);
+  background-color: #dfdfdf;
+}
+.submit:active {
+  position: relative;
+  top: 1px;
+}
+
+.cme {
+  margin-top: 20px;
+  margin-left: 500px;
+  height: 100px;
+  width: 450px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.cl {
+  margin-top: 20px;
+  margin-left: 370px;
+  height: 100px;
+  width: 700px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.sk {
+  margin-top: 20px;
+  margin-left: 500px;
+  height: 100px;
+  width: 450px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.w {
+  margin-top: 20px;
+  margin-left: 500px;
+  height: 100px;
+  width: 450px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
 }

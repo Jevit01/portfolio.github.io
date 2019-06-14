@@ -12,7 +12,7 @@ import ruby from "./images/ruby.png";
 import python from "./images/python.png";
 import java from "./images/java.png";
 import thomas from "./images/ThomasPerez.jpg";
-import { CircleArrow as ScrollUpButton } from "react-scroll-up-button";
+import ScrollUpButton from "react-scroll-up-button";
 
 class Home extends Component {
   render() {
@@ -66,7 +66,13 @@ class Home extends Component {
             </div>
           </div>
           <div className="bioPic">
-            <img src={thomas} alt="" height="333px" width="320px" />
+            <img
+              src={thomas}
+              alt=""
+              height="333px"
+              width="320px"
+              object-fit="cover"
+            />
           </div>
         </div>
         <br />
@@ -81,7 +87,11 @@ class Home extends Component {
         <br />
         <div className="mywork">
           <section id="mywork">
-            <h2>My Work</h2>
+            <br />
+            <div className="w">
+              <h2>My Work</h2>
+            </div>
+            <br />
             <div className="work">
               <img className="fhhome" src={fhhome} alt="" />
               <br />
@@ -94,39 +104,48 @@ class Home extends Component {
               <br />
               <br />
               <br />
-              <div className="fhome">
-                <h3>-Furever Home</h3>
-                <p>
-                  Furever Home is a web application that makes the adoption
-                  process easier. Users can navigate through multiple shelters
-                  and see all the animals ready for adoption. Users can
-                  also fill out pre-approval forms that will be reviewed and
-                  sent directly to the corresponding shelters. What makes
-                  Furever Home unique is its community. Users can connect with
-                  other pet owners and share their experiences and tips of
-                  adopting. 
-                </p>
-                <a href="https://github.com/Jevit01/furever-home">Code</a> or{" "}
-                <a href="http://capstone-furever-home.herokuapp.com/">Live</a>
+              <div className="fhbox">
+                <div className="fhome">
+                  <h3>-Furever Home</h3>
+                  <p>
+                    Furever Home is a web application that makes the adoption
+                    process easier. Users can navigate through multiple shelters
+                    and see all the animals ready for adoption. Users can
+                    also fill out pre-approval forms that will be reviewed and
+                    sent directly to the corresponding shelters. What makes
+                    Furever Home unique is its community. Users can connect with
+                    other pet owners and share their experiences and tips of
+                    adopting. 
+                  </p>
+                  <a href="https://github.com/Jevit01/furever-home">Code</a> or{" "}
+                  <a href="http://capstone-furever-home.herokuapp.com/">Live</a>
+                </div>
               </div>
-              <div className="ec">
-                <h3>-Ear Candy</h3>
-                <p>
-                  EarCandy is a music review web application. This app allows
-                  users to add a list of their favorite songs to be critiqued by
-                  others. Users can search through songs by popularity or genre.
-                  If they happen to like the song they can add it to their
-                  favorites list that will show on their profile page.
-                </p>
-                <a href="https://github.com/Jevit01/EarCandy">Code</a> or{" "}
-                <a href="http://ear-candy.herokuapp.com/">Live</a>
+              <div className="ecbox">
+                <div className="ec">
+                  <h3>-Ear Candy</h3>
+                  <p>
+                    EarCandy is a music review web application. This app allows
+                    users to add a list of their favorite songs to be critiqued
+                    by others. Users can search through songs by popularity or
+                    genre. If they happen to like the song they can add it to
+                    their favorites list that will show on their profile page.
+                  </p>
+                  <a href="https://github.com/Jevit01/EarCandy">Code</a> or{" "}
+                  <a href="http://ear-candy.herokuapp.com/">Live</a>
+                </div>
               </div>
             </div>
           </section>
         </div>
+        <br />
         <div className="skills">
+          <br />
           <section id="skills">
-            <h2>Skills</h2>
+            <div className="sk">
+              <h2>Skills</h2>
+            </div>
+            <br />
             <div className="skill">
               <img
                 className="js"
@@ -160,8 +179,8 @@ class Home extends Component {
                 className="sql"
                 src={sql}
                 alt=""
-                height="204px"
-                width="198px"
+                height="220px"
+                width="204px"
               />
               <img
                 className="react"
@@ -180,30 +199,35 @@ class Home extends Component {
             <br />
           </section>
         </div>
+        <br />
         <div className="current">
           <section id="currenltylearning">
-            <h2>Currenlty Learning</h2>
+            <br />
+            <div className="cl">
+              <h2>Currenlty Learning</h2>
+            </div>
+            <br />
             <div className="learning">
               <img
                 className="ruby"
                 src={ruby}
                 alt=""
-                height="200px"
-                width="150px"
+                height="250px"
+                width="200px"
               />
               <img
                 className="java"
                 src={java}
                 alt=""
-                height="200px"
-                width="150px"
+                height="250px"
+                width="200px"
               />
               <img
                 className="python"
                 src={python}
                 alt=""
-                height="200px"
-                width="150px"
+                height="250px"
+                width="200px"
               />
             </div>
             <br />
@@ -212,10 +236,43 @@ class Home extends Component {
             <br />
           </section>
         </div>
+        <br />
         <div className="contact">
           <section id="contact">
-            <h2>Contact Me!</h2>
+            <br />
+            <div className="cme">
+              <h2>Contact Me!</h2>
+            </div>
+            <br />
+            <div className="formBox">
+              <form
+                className="form"
+                method="POST"
+                action="https://formspree.io/thomasperez@pursuit.org"
+              >
+                <input
+                  className="email"
+                  type="email"
+                  name="email"
+                  placeholder="Your email"
+                />
+                <br />
+                <textarea
+                  className="text"
+                  name="message"
+                  placeholder="Your Message"
+                />
+                <button className="submit" type="submit">
+                  Send
+                </button>
+              </form>
+            </div>
           </section>
+
+          <br />
+          <br />
+          <br />
+          <br />
         </div>
         <ScrollUpButton EasingType="linear" />
       </div>
