@@ -1,0 +1,155 @@
+.App {
+  text-align: center;
+}
+
+.fhhome {
+  width: 300px;
+  height: 200px;
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.echome {
+  width: 300px;
+  height: 200px;
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.fhome {
+  grid-column: 2;
+  grid-row: 1;
+  text-align: justify;
+  margin-left: 30px;
+}
+
+.ec {
+  grid-column: 2;
+  grid-row: 2;
+  text-align: justify;
+  margin-left: 30px;
+}
+
+.mywork {
+  background-color: #f9dcbd;
+  height: auto;
+}
+
+.skills {
+  background-color: #fff7b0;
+}
+
+.current {
+  background-color: #d0cfcd;
+}
+
+.contact {
+  background-color: #f9dcbd;
+}
+
+.nav {
+  width: 580px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-family: "Palatino Linotype";
+  font-size: 26px;
+  font-style: italic;
+  font-variant: normal;
+  font-weight: 700;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.navBox {
+  margin-top: 50px;
+  width: 590px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  grid-row: 1;
+  grid-column: 1;
+  justify-content: center;
+}
+
+.bio {
+  height: 519px;
+  width: 508px;
+  color: white;
+}
+
+.bioBox {
+  margin-top: 20px;
+  height: 500px;
+  width: 515px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  grid-row: 2;
+}
+
+.bioPic {
+  margin-top: 20px;
+  grid-row: 2;
+}
+
+.mainSection {
+  display: grid;
+
+  grid-template-rows: 20% 50%;
+  justify-content: center;
+}
+
+.videoloop2 {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  filter: blur(2.3px);
+}
+
+h2 {
+  font-family: "Bangers", cursive;
+  font-weight: bold;
+  font-size: 80px;
+}
+
+h1 {
+  font-family: "Bangers", cursive;
+
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 1px;
+}
+
+.full {
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-top: 1px;
+  margin-bottom: 30px;
+}
+
+.bioHead {
+  text-align: justify;
+  margin-left: 10px;
+}
+
+.work {
+  display: grid;
+  grid-template-columns: 20% 50%;
+  grid-template-rows: 50% 50%;
+  justify-content: center;
+}
+
+h3 {
+  font-family: "Bangers", cursive;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 1px;
+}
