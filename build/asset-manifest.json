@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio.github.io/static/css/main.70266c9d.chunk.css",
+    "main.js": "/portfolio.github.io/static/js/main.0f631c47.chunk.js",
+    "main.js.map": "/portfolio.github.io/static/js/main.0f631c47.chunk.js.map",
+    "runtime~main.js": "/portfolio.github.io/static/js/runtime~main.f2302257.js",
+    "runtime~main.js.map": "/portfolio.github.io/static/js/runtime~main.f2302257.js.map",
+    "static/js/2.e700cd9c.chunk.js": "/portfolio.github.io/static/js/2.e700cd9c.chunk.js",
+    "static/js/2.e700cd9c.chunk.js.map": "/portfolio.github.io/static/js/2.e700cd9c.chunk.js.map",
+    "index.html": "/portfolio.github.io/index.html",
+    "precache-manifest.baf9e4c1b60f3529588d9cca20d0ec28.js": "/portfolio.github.io/precache-manifest.baf9e4c1b60f3529588d9cca20d0ec28.js",
+    "service-worker.js": "/portfolio.github.io/service-worker.js",
+    "static/css/main.70266c9d.chunk.css.map": "/portfolio.github.io/static/css/main.70266c9d.chunk.css.map",
+    "static/media/ThomasPerez.jpg": "/portfolio.github.io/static/media/ThomasPerez.a982afb9.jpg",
+    "static/media/css.jpg": "/portfolio.github.io/static/media/css.512bb446.jpg",
+    "static/media/echome.png": "/portfolio.github.io/static/media/echome.1c0108e7.png",
+    "static/media/fhhome.png": "/portfolio.github.io/static/media/fhhome.7e574b85.png",
+    "static/media/js.png": "/portfolio.github.io/static/media/js.5c0b7ac0.png",
+    "static/media/node.jpg": "/portfolio.github.io/static/media/node.f5d8e6ae.jpg",
+    "static/media/python.png": "/portfolio.github.io/static/media/python.af4654dd.png",
+    "static/media/react.png": "/portfolio.github.io/static/media/react.45b43802.png",
+    "static/media/ruby.png": "/portfolio.github.io/static/media/ruby.a195c30f.png",
+    "static/media/sql.png": "/portfolio.github.io/static/media/sql.43b0a74e.png"
+  }
+}
