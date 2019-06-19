@@ -66,18 +66,13 @@ class Home extends Component {
             </div>
           </div>
           <div className="bioPic">
-            <img
-              src={thomas}
-              alt=""
-              height="333px"
-              width="320px"
-              object-fit="cover"
-            />
+            <img src={thomas} alt="" className="proPic" />
           </div>
         </div>
         <br />
         <br />
         <br />
+
         <br />
         <br />
         <br />
@@ -88,11 +83,11 @@ class Home extends Component {
         <div className="mywork">
           <section id="mywork">
             <br />
-            <div className="w">
-              <h2>My Work</h2>
-            </div>
-            <br />
             <div className="work">
+              <div className="w">
+                <h2>My Work</h2>
+              </div>
+              <br />
               <img className="fhhome" src={fhhome} alt="" />
               <br />
               <br />
@@ -142,11 +137,11 @@ class Home extends Component {
         <div className="skills">
           <br />
           <section id="skills">
-            <div className="sk">
-              <h2>Skills</h2>
-            </div>
-            <br />
             <div className="skill">
+              <div className="sk">
+                <h2>Skills</h2>
+              </div>
+              <br />
               <img
                 className="js"
                 src={js}
@@ -203,11 +198,11 @@ class Home extends Component {
         <div className="current">
           <section id="currenltylearning">
             <br />
-            <div className="cl">
-              <h2>Currenlty Learning</h2>
-            </div>
-            <br />
             <div className="learning">
+              <div className="cl">
+                <h2>Currenlty Learning</h2>
+              </div>
+              <br />
               <img
                 className="ruby"
                 src={ruby}
@@ -240,32 +235,35 @@ class Home extends Component {
         <div className="contact">
           <section id="contact">
             <br />
-            <div className="cme">
-              <h2>Contact Me!</h2>
-            </div>
-            <br />
-            <div className="formBox">
-              <form
-                className="form"
-                method="POST"
-                action="https://formspree.io/thomasperez@pursuit.org"
-              >
-                <input
-                  className="email"
-                  type="email"
-                  name="email"
-                  placeholder="Your email"
-                />
-                <br />
-                <textarea
-                  className="text"
-                  name="message"
-                  placeholder="Your Message"
-                />
-                <button className="submit" type="submit">
-                  Send
-                </button>
-              </form>
+            <div className="contactgrid">
+              <div className="cme">
+                <h2>Contact Me!</h2>
+                <h3 id="emailadd">ThomasPerez@pursuit.org</h3>
+              </div>
+              <br />
+              <div className="formBox">
+                <form
+                  className="form"
+                  method="POST"
+                  action="https://formspree.io/thomasperez@pursuit.org"
+                >
+                  <input
+                    className="email"
+                    type="email"
+                    name="email"
+                    placeholder="Your email"
+                  />
+                  <br />
+                  <textarea
+                    className="text"
+                    name="message"
+                    placeholder="Your Message"
+                  />
+                  <button className="submit" type="submit">
+                    Send
+                  </button>
+                </form>
+              </div>
             </div>
           </section>
 
