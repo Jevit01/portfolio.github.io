@@ -4,6 +4,15 @@
 p {
   font-size: 1.1111111111111112vw;
 }
+
+.socialLinks {
+  display: flex;
+  flex-direction: column;
+
+  position: fixed;
+  float: left;
+}
+
 .fhhome {
   width: 64.62585034013605vw;
   height: 17.36111111111111vw;
