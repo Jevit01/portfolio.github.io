@@ -72,8 +72,6 @@ class Home extends Component {
         <br />
         <br />
         <br />
-
-        <br />
         <br />
         <br />
         <br />
@@ -112,8 +110,21 @@ class Home extends Component {
                     other pet owners and share their experiences and tips of
                     adopting. 
                   </p>
-                  <a href="https://github.com/Jevit01/furever-home">Code</a> or{" "}
-                  <a href="http://capstone-furever-home.herokuapp.com/">Live</a>
+                  <div className="links">
+                    <a
+                      className="alink"
+                      href="https://github.com/Jevit01/furever-home"
+                    >
+                      Code
+                    </a>
+                    <p className="or"> || </p>{" "}
+                    <a
+                      className="alink"
+                      href="http://capstone-furever-home.herokuapp.com/"
+                    >
+                      Live
+                    </a>
+                  </div>
                 </div>
               </div>
               <div className="ecbox">
@@ -126,8 +137,19 @@ class Home extends Component {
                     genre. If they happen to like the song they can add it to
                     their favorites list that will show on their profile page.
                   </p>
-                  <a href="https://github.com/Jevit01/EarCandy">Code</a> or{" "}
-                  <a href="http://ear-candy.herokuapp.com/">Live</a>
+                  <div className="links">
+                    <a
+                      className="alink"
+                      href="https://github.com/Jevit01/EarCandy"
+                    >
+                      Code{" "}
+                    </a>
+                    <p className="or"> || </p>{" "}
+                    <a className="alink" href="http://ear-candy.herokuapp.com/">
+                      {" "}
+                      Live
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -142,48 +164,12 @@ class Home extends Component {
                 <h2>Skills</h2>
               </div>
               <br />
-              <img
-                className="js"
-                src={js}
-                alt=""
-                height="209px"
-                width="156px"
-              />
-              <img
-                className="html"
-                src={html}
-                alt=""
-                height="191px"
-                width="191px"
-              />
-              <img
-                className="css"
-                src={css}
-                alt=""
-                height="191px"
-                width="137px"
-              />
-              <img
-                className="node"
-                src={node}
-                alt=""
-                height="200px"
-                width="191px"
-              />
-              <img
-                className="sql"
-                src={sql}
-                alt=""
-                height="220px"
-                width="204px"
-              />
-              <img
-                className="react"
-                src={react}
-                alt=""
-                height="204px"
-                width="204px"
-              />
+              <img className="js" src={js} alt="" />
+              <img className="html" src={html} alt="" />
+              <img className="css" src={css} alt="" />
+              <img className="node" src={node} alt="" />
+              <img className="sql" src={sql} alt="" />
+              <img className="react" src={react} alt="" />
             </div>
             <br />
             <br />
@@ -203,27 +189,9 @@ class Home extends Component {
                 <h2>Currenlty Learning</h2>
               </div>
               <br />
-              <img
-                className="ruby"
-                src={ruby}
-                alt=""
-                height="250px"
-                width="200px"
-              />
-              <img
-                className="java"
-                src={java}
-                alt=""
-                height="250px"
-                width="200px"
-              />
-              <img
-                className="python"
-                src={python}
-                alt=""
-                height="250px"
-                width="200px"
-              />
+              <img className="ruby" src={ruby} alt="" />
+              <img className="java" src={java} alt="" />
+              <img className="python" src={python} alt="" />
             </div>
             <br />
             <br />
@@ -265,6 +233,9 @@ class Home extends Component {
                 </form>
               </div>
             </div>
+            <br />
+            <br />
+            <br />
           </section>
 
           <br />

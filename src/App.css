@@ -136,6 +136,20 @@ a {
   text-decoration: none;
 }
 
+.links {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.or {
+  margin: 0vw;
+}
+
+.alink {
+  font-size: 1.1111111111111112vw;
+}
+
 .navBox {
   margin-top: 3.4722222222222223vw;
   width: 40.97222222222222vw;
@@ -173,6 +187,8 @@ a {
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 0.3472222222222222vw;
   grid-row: 2 / span 3;
+
+  padding: 1.3888888888888888vw;
 }
 
 .bioPic {
@@ -198,6 +214,8 @@ a {
   max-height: 100%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
   grid-template-rows: 20% 50% 40%;
   justify-content: center;
 }
@@ -218,8 +236,8 @@ h2 {
   font-size: 5.555555555555555vw;
 
   color: white;
-  margin-top: 1.3888888888888888vw;
-  margin-bottom: 1.3888888888888888vw;
+  margin-top: auto;
+  margin-bottom: auto;
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
@@ -228,11 +246,13 @@ h2 {
 
 h1 {
   font-family: "Bangers", cursive;
-  margin-left: auto;
-  margin-right: auto;
+
   font-weight: bold;
   font-size: 2.7777777777777777vw;
-  margin-bottom: 0.06944444444444445vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
   max-width: 100%;
   max-height: 100%;
 }
@@ -240,15 +260,20 @@ h1 {
 .full {
   font-family: sans-serif;
   font-size: 1.3888888888888888vw;
-  margin-top: 0.06944444444444445vw;
-  margin-bottom: 2.0833333333333335vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
   max-width: 100%;
   max-height: 100%;
 }
 
 .bioHead {
   text-align: justify;
-  margin-left: 0.6944444444444444vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
   max-width: 100%;
   max-height: 100%;
 }
@@ -257,7 +282,10 @@ h1 {
   display: grid;
   max-width: 100%;
   max-height: 100%;
-
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
   grid-template-columns: 30% 50%;
   grid-template-rows: 20% 40% 40%;
   justify-content: center;
@@ -267,9 +295,10 @@ h3 {
   font-family: "Bangers", cursive;
   font-weight: bold;
   font-size: 2.0833333333333335vw;
-  margin-bottom: 0.06944444444444445vw;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
   max-width: 100%;
   max-height: 100%;
 }
@@ -281,73 +310,88 @@ h3 {
   max-height: 100%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
   grid-template-columns: 20% 20% 20% 20%;
   grid-template-rows: 20% 50% 50%;
 }
 
 .js {
-  margin-left: 2.0833333333333335vw;
   grid-column: 1;
   grid-row: 2;
   max-width: 100%;
   max-height: 100%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 14.51388888888889vw;
+  width: 10.833333333333334vw;
 }
 
 .html {
-  margin-left: 1.3888888888888888vw;
-  margin-top: 0.5555555555555556vw;
   grid-column: 2;
   grid-row: 2;
   max-width: 100%;
   max-height: 100%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 13.26388888888889vw;
+  width: 13.26388888888889vw;
 }
 
 .css {
-  margin-left: 3.125vw;
-  margin-top: 0.5555555555555556vw;
   grid-column: 3;
   grid-row: 2;
   max-width: 100%;
   max-height: 100%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 13.26388888888889vw;
+  width: 9.51388888888889vw;
 }
 
 .node {
-  margin-left: 0.6944444444444444vw;
-  margin-top: 0.4861111111111111vw;
   grid-column: 4;
   grid-row: 2;
   max-width: 100%;
   max-height: 100%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 13.88888888888889vw;
+  width: 13.26388888888889vw;
 }
 
 .sql {
-  margin-top: 0.6944444444444444vw;
-  margin-left: 0.6944444444444444vw;
+  margin-bottom: auto;
+  margin-top: auto;
   grid-column: 2;
   grid-row: 3;
   max-width: 100%;
   max-height: 100%;
   margin-left: auto;
   margin-right: auto;
+  height: 15.277777777777779vw;
+  width: 14.166666666666666vw;
 }
 
 .react {
-  margin-left: 0.6944444444444444vw;
-  margin-top: 0.6944444444444444vw;
+  margin-bottom: auto;
+  margin-top: auto;
   grid-column: 3;
   grid-row: 3;
   max-width: 100%;
   max-height: 100%;
   margin-left: auto;
   margin-right: auto;
+  height: 14.166666666666666vw;
+  width: 14.166666666666666vw;
 }
 
 .learning {
@@ -355,7 +399,10 @@ h3 {
   justify-content: center;
   max-width: 100%;
   max-height: 100%;
-  margin-left: 3.125vw;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-top: auto;
+  margin-right: auto;
   grid-template-columns: 20% 20% 20%;
   grid-template-rows: 40% 50%;
 }
@@ -368,6 +415,10 @@ h3 {
   max-height: 100%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 17.36111111111111vw;
+  width: 13.88888888888889vw;
 }
 
 .java {
@@ -378,6 +429,10 @@ h3 {
   max-height: 100%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 17.36111111111111vw;
+  width: 13.88888888888889vw;
 }
 
 .python {
@@ -388,6 +443,10 @@ h3 {
   max-height: 100%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 17.36111111111111vw;
+  width: 13.88888888888889vw;
 }
 
 .formBox {
@@ -488,13 +547,14 @@ h3 {
 }
 
 .cme {
-  margin-top: 1.3888888888888888vw;
   display: flex;
   justify-content: center;
-  margin-bottom: 1.3888888888888888vw;
+
   max-width: 100%;
   max-height: 100%;
+  margin-bottom: auto;
   margin-left: auto;
+  margin-top: auto;
   margin-right: auto;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 0.3472222222222222vw;
@@ -505,12 +565,13 @@ h3 {
 .cl {
   display: flex;
   justify-content: center;
-  margin-top: 1.3888888888888888vw;
-  margin-bottom: 1.3888888888888888vw;
+
   max-width: 100%;
   max-height: 100%;
-  margin-left: auto;
+  margin-top: auto;
   margin-right: auto;
+  margin-bottom: auto;
+  margin-left: auto;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 0.3472222222222222vw;
   grid-column: 1 / span 3;
@@ -520,11 +581,13 @@ h3 {
 .sk {
   display: flex;
   justify-content: center;
-  margin-bottom: 0.6944444444444444vw;
+
   max-width: 100%;
   max-height: 100%;
-  margin-left: auto;
+  margin-top: auto;
   margin-right: auto;
+  margin-bottom: auto;
+  margin-left: auto;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 0.3472222222222222vw;
   grid-column: 1 / span 4;
@@ -534,8 +597,8 @@ h3 {
 .w {
   display: flex;
   justify-content: center;
-  margin-top: 1.3888888888888888vw;
-  margin-bottom: 1.3888888888888888vw;
+  margin-top: auto;
+  margin-bottom: auto;
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
