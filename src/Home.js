@@ -13,6 +13,8 @@ import python from "./images/python.png";
 import java from "./images/java.png";
 import thomas from "./images/ThomasPerez.jpg";
 import paper from "./images/paper.png";
+import github from "./images/github.png";
+import linkedin from "./images/linkedin.png";
 import resume from "./resume/resume.pdf";
 import ScrollUpButton from "react-scroll-up-button";
 
@@ -21,7 +23,7 @@ class Home extends Component {
     return (
       <div>
         <div className="videoloop">
-          <video className="videoloop2" autoPlay loop muted>
+          <video className="videoloop2" playsinline autoPlay loop muted>
             <source
               className="video"
               src="https://video.wixstatic.com/video/11062b_3e2f37c297534f9ead156265242fbca8/1080p/mp4/file.mp4"
@@ -73,18 +75,10 @@ class Home extends Component {
           </div>
           <div className="socialLinks">
             <a href="https://github.com/Jevit01">
-              <img
-                className="git"
-                src="https://static.wixstatic.com/media/bfaaf4_d4958b7d9a3e446c80a1c7a577566583~mv2.png/v1/fill/w_28,h_28,al_c,q_80,usm_0.66_1.00_0.01/bfaaf4_d4958b7d9a3e446c80a1c7a577566583~mv2.webp"
-                alt=""
-              />
+              <img className="git" src={github} alt="" />
             </a>
             <a href="https://www.linkedin.com/in/thomas-i-perez/">
-              <img
-                className="in"
-                src="https://static.wixstatic.com/media/7528824071724d12a3e6c31eee0b40d4.png/v1/fill/w_28,h_28,al_c,q_80,usm_0.66_1.00_0.01/7528824071724d12a3e6c31eee0b40d4.webp"
-                alt=""
-              />
+              <img className="in" src={linkedin} alt="" />
             </a>
             <a href={resume}>
               <img className="resume" src={paper} alt="" />
