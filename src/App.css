@@ -1,16 +1,39 @@
 .socialLinks {
   display: flex;
   flex-direction: column;
-
+  align-self: center;
   position: fixed;
-  float: left;
+  float: inherit;
+  max-width: 100%;
+  max-height: 100%;
+  margin-left: 1.0416666666666667vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 4.166666666666667vw;
+  height: auto;
+  padding-top: 0.3472222222222222vw;
+  border-radius: 0vw 0.3472222222222222vw 0vw 0.3472222222222222vw;
 }
+
+.git {
+  width: 3.4722222222222223vw;
+  height: 3.4722222222222223vw;
+  margin: 0;
+}
+
+.in {
+  width: 3.4722222222222223vw;
+  height: 3.4722222222222223vw;
+  margin: 0;
+}
+
 .App {
   text-align: center;
 }
+
 p {
-  font-size: 1.1111111111111112vw;
+  font-size: 1.3888888888888888vw;
 }
+
 .fhhome {
   width: 64.62585034013605vw;
   height: 17.36111111111111vw;
@@ -154,7 +177,7 @@ a {
 }
 
 .alink {
-  font-size: 1.1111111111111112vw;
+  font-size: 1.3888888888888888vw;
 }
 
 .navBox {
@@ -185,7 +208,7 @@ a {
 
 .bioBox {
   margin-top: 1.3888888888888888vw;
-  height: 34.72222222222222vw;
+  height: auto;
   width: 35.763888888888886vw;
   max-width: 100%;
   max-height: 100%;
@@ -458,7 +481,7 @@ h3 {
 
 .formBox {
   background-color: rgba(0, 0, 0, 0.5);
-  height: 27.77777777777778vw;
+  height: auto;
   width: 45.138888888888886vw;
   max-width: 100%;
   max-height: 100%;

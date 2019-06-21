@@ -18,20 +18,6 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <div className="socialLinks">
-          <a href="https://github.com/Jevit01">
-            <img
-              src="https://static.wixstatic.com/media/bfaaf4_d4958b7d9a3e446c80a1c7a577566583~mv2.png/v1/fill/w_28,h_28,al_c,q_80,usm_0.66_1.00_0.01/bfaaf4_d4958b7d9a3e446c80a1c7a577566583~mv2.webp"
-              alt=""
-            />
-          </a>
-          <a href="https://www.linkedin.com/in/thomas-i-perez/">
-            <img
-              src="https://static.wixstatic.com/media/7528824071724d12a3e6c31eee0b40d4.png/v1/fill/w_28,h_28,al_c,q_80,usm_0.66_1.00_0.01/7528824071724d12a3e6c31eee0b40d4.webp"
-              alt=""
-            />
-          </a>
-        </div>
         <div className="videoloop">
           <video className="videoloop2" autoPlay loop muted>
             <source
@@ -82,6 +68,23 @@ class Home extends Component {
           <div className="bioPic">
             <img src={thomas} alt="" className="proPic" />
           </div>
+        </div>
+
+        <div className="socialLinks">
+          <a href="https://github.com/Jevit01">
+            <img
+              className="git"
+              src="https://static.wixstatic.com/media/bfaaf4_d4958b7d9a3e446c80a1c7a577566583~mv2.png/v1/fill/w_28,h_28,al_c,q_80,usm_0.66_1.00_0.01/bfaaf4_d4958b7d9a3e446c80a1c7a577566583~mv2.webp"
+              alt=""
+            />
+          </a>
+          <a href="https://www.linkedin.com/in/thomas-i-perez/">
+            <img
+              className="in"
+              src="https://static.wixstatic.com/media/7528824071724d12a3e6c31eee0b40d4.png/v1/fill/w_28,h_28,al_c,q_80,usm_0.66_1.00_0.01/7528824071724d12a3e6c31eee0b40d4.webp"
+              alt=""
+            />
+          </a>
         </div>
         <br />
         <br />
