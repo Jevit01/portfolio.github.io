@@ -12,6 +12,8 @@ import ruby from "./images/ruby.png";
 import python from "./images/python.png";
 import java from "./images/java.png";
 import thomas from "./images/ThomasPerez.jpg";
+import paper from "./images/paper.png";
+import resume from "./resume/resume.pdf";
 import ScrollUpButton from "react-scroll-up-button";
 
 class Home extends Component {
@@ -38,6 +40,7 @@ class Home extends Component {
               <AnchorLink href="#contact">Contact</AnchorLink>
             </div>
           </div>
+
           <div className="bioBox">
             <div className="bio">
               <div className="bioHead">
@@ -68,23 +71,25 @@ class Home extends Component {
           <div className="bioPic">
             <img src={thomas} alt="" className="proPic" />
           </div>
-        </div>
-
-        <div className="socialLinks">
-          <a href="https://github.com/Jevit01">
-            <img
-              className="git"
-              src="https://static.wixstatic.com/media/bfaaf4_d4958b7d9a3e446c80a1c7a577566583~mv2.png/v1/fill/w_28,h_28,al_c,q_80,usm_0.66_1.00_0.01/bfaaf4_d4958b7d9a3e446c80a1c7a577566583~mv2.webp"
-              alt=""
-            />
-          </a>
-          <a href="https://www.linkedin.com/in/thomas-i-perez/">
-            <img
-              className="in"
-              src="https://static.wixstatic.com/media/7528824071724d12a3e6c31eee0b40d4.png/v1/fill/w_28,h_28,al_c,q_80,usm_0.66_1.00_0.01/7528824071724d12a3e6c31eee0b40d4.webp"
-              alt=""
-            />
-          </a>
+          <div className="socialLinks">
+            <a href="https://github.com/Jevit01">
+              <img
+                className="git"
+                src="https://static.wixstatic.com/media/bfaaf4_d4958b7d9a3e446c80a1c7a577566583~mv2.png/v1/fill/w_28,h_28,al_c,q_80,usm_0.66_1.00_0.01/bfaaf4_d4958b7d9a3e446c80a1c7a577566583~mv2.webp"
+                alt=""
+              />
+            </a>
+            <a href="https://www.linkedin.com/in/thomas-i-perez/">
+              <img
+                className="in"
+                src="https://static.wixstatic.com/media/7528824071724d12a3e6c31eee0b40d4.png/v1/fill/w_28,h_28,al_c,q_80,usm_0.66_1.00_0.01/7528824071724d12a3e6c31eee0b40d4.webp"
+                alt=""
+              />
+            </a>
+            <a href={resume}>
+              <img className="resume" src={paper} alt="" />
+            </a>
+          </div>
         </div>
         <br />
         <br />
