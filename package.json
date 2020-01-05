@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Jevit01.github.io",
+  "homepage": "https://jevit01.github.io/portfolio",
   "dependencies": {
     "react": "^16.8.6",
     "react-anchor-link-smooth-scroll": "^1.0.12",
