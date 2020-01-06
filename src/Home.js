@@ -15,6 +15,7 @@ import thomas from "./images/ThomasPerez.jpg";
 import paper from "./images/paper.png";
 import github from "./images/github.png";
 import linkedin from "./images/linkedin.png";
+import ho from "./images/ho.png";
 import resume from "./resume/resume.pdf";
 import ScrollUpButton from "react-scroll-up-button";
 
@@ -104,14 +105,9 @@ class Home extends Component {
               <br />
               <img className="fhhome" src={fhhome} alt="" />
               <br />
-              <br />
+              <img className="ho" src={ho} alt="" />
               <br />
               <img className="echome" src={echome} alt="" />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
               <br />
               <div className="fhbox">
                 <div className="fhome">
@@ -143,6 +139,34 @@ class Home extends Component {
                   </div>
                 </div>
               </div>
+              <div className="hobox">
+                <div className="hod">
+                  <h3>-Hidden Objects</h3>
+                  <p>
+                    Hidden Objects is a puzzle web application. The objective of
+                    the game is to find all hidden items given in the word bank
+                    within the time limit. If time runs out you will have to
+                    restart from level 1. the higher the level the shorter the
+                    time.
+                  </p>
+                  <div className="links">
+                    <a
+                      className="alink"
+                      href="https://github.com/Jevit01/hiddenobjects"
+                    >
+                      Code{" "}
+                    </a>
+                    <p className="or"> || </p>{" "}
+                    <a
+                      className="alink"
+                      href="https://jevit01.github.io/hiddenobjects/"
+                    >
+                      {" "}
+                      Live
+                    </a>
+                  </div>
+                </div>
+              </div>
               <div className="ecbox">
                 <div className="ec">
                   <h3>-Ear Candy</h3>
@@ -169,6 +193,22 @@ class Home extends Component {
                 </div>
               </div>
             </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
           </section>
         </div>
         <br />
