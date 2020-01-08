@@ -48,7 +48,12 @@ p {
   height: 17.36111111111111vw;
   max-width: 100%;
   max-height: 100%;
+  border-radius: 0.3472222222222222vw;
+  grid-row: 2;
+  grid-column: 1;
+}
 
+.fhpiclink {
   grid-row: 2;
   grid-column: 1;
 }
@@ -58,7 +63,12 @@ p {
   height: 17.36111111111111vw;
   max-width: 100%;
   max-height: 100%;
+  border-radius: 0.3472222222222222vw;
+  grid-column: 1;
+  grid-row: 3;
+}
 
+.hopiclink {
   grid-column: 1;
   grid-row: 3;
 }
@@ -68,7 +78,12 @@ p {
   height: 17.36111111111111vw;
   max-width: 100%;
   max-height: 100%;
+  border-radius: 0.3472222222222222vw;
+  grid-column: 1;
+  grid-row: 4;
+}
 
+.ecpiclink {
   grid-column: 1;
   grid-row: 4;
 }
@@ -218,10 +233,11 @@ a {
 
 .or {
   margin: 0vw;
+  font-size: 1.7361111111111112vw;
 }
 
 .alink {
-  font-size: 1.3888888888888888vw;
+  font-size: 1.7361111111111112vw;
 }
 
 .navBox {

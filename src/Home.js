@@ -103,11 +103,23 @@ class Home extends Component {
                 <h2>My Work</h2>
               </div>
               <br />
-              <img className="fhhome" src={fhhome} alt="" />
+              <a
+                className="fhpiclink"
+                href="http://capstone-furever-home.herokuapp.com/"
+              >
+                <img className="fhhome" src={fhhome} alt="" />
+              </a>
               <br />
-              <img className="ho" src={ho} alt="" />
+              <a
+                className="hopiclink"
+                href="https://jevit01.github.io/hiddenobjects/"
+              >
+                <img className="ho" src={ho} alt="" />
+              </a>
               <br />
-              <img className="echome" src={echome} alt="" />
+              <a className="ecpiclink" href="http://ear-candy.herokuapp.com/">
+                <img className="echome" src={echome} alt="" />
+              </a>
               <br />
               <div className="fhbox">
                 <div className="fhome">
@@ -193,14 +205,6 @@ class Home extends Component {
                 </div>
               </div>
             </div>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
             <br />
             <br />
             <br />
